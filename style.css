@@ -1,0 +1,20 @@
+/*
+ Theme Name:   Singl -- Optimized for Event Smart
+ Theme URI:    https://eventsmart.com
+ Description:  Singl is a minimalist theme that helps you to create a strong — yet beautiful — online presence. Primarily designed for music artists, Singl is a powerful and flexible theme.
+Optimized for eventsmart.com
+ Author:       Event Smart
+ Author URI:   https://eventsmart.com
+ Template:     Singl
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  singl__optimized_for_event_smart
+*/
+
+@import url("../Singl/style.css");
+
+.page-header, 
+.page-content, 
+.hentry {
+	max-width: 100%;
+}
