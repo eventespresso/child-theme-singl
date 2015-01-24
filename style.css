@@ -18,3 +18,55 @@ Optimized for eventsmart.com
 .hentry {
 	max-width: 100%;
 }
+
+.ee-event-datetimes-ul li {
+	float: left;
+	width: 50%;
+}
+
+.ee-event-datetimes-ul:before,
+.ee-event-datetimes-ul:after {
+	content: '';
+	display: table;
+}
+
+.ee-event-datetimes-ul:after {
+	clear: both;
+}
+
+/* 960px > x */
+@media only screen and (max-width: 959px) {
+
+
+}
+
+/* 769px > x */
+@media only screen and (max-width: 767px) {
+
+
+}
+
+/* 640px > x */
+@media only screen and (max-width: 637px) {
+
+	.espresso_events .event-datetimes {
+		margin: 0 auto;
+		width: 66%;
+	}
+
+	.ee-event-datetimes-ul li {
+		float: none;
+		width: auto;
+	}
+
+}
+
+/* 480px > x */
+@media only screen and (max-width: 477px) {
+
+	.espresso_events .event-datetimes {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+}
