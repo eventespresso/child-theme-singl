@@ -14,6 +14,8 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
+				<?php if ( ! is_post_type_archive ( array( 'espresso_events', 'espresso_venues' ) ) ) : ?>
+
 				<header class="page-header">
 					<h1 class="page-title">
 						<?php
@@ -79,6 +81,8 @@ get_header(); ?>
 						endif;
 					?>
 				</header><!-- .page-header -->
+
+				<?php endif; ?>
 
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
