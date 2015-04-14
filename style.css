@@ -13,6 +13,10 @@ Optimized for eventsmart.com
 
 @import url("../singl/style.css");
 
+body {
+	background-color: #61b1d8;
+}
+
 .page-header, 
 .page-content, 
 .hentry {
